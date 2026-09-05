@@ -1,0 +1,1 @@
+{"name":"study-lab","version":"1.0.0","private":true,"scripts":{"start":"node server.js"},"dependencies":{"express":"^5.1.0","better-sqlite3":"^12.4.1","multer":"^2.0.2","express-session":"^1.18.2"}}
