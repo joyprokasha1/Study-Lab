@@ -1,6 +1,6 @@
 const express=require('express'); const session=require('express-session'); const multer=require('multer'); const path=require('path'); const fs=require('fs'); const Database=require('better-sqlite3');
 
-const app=express(), PORT=process.env.PORT||3000; const root=__dirname; fs.mkdirSync(path.join(root,'uploads'),{recursive:true});
+const app=express(), PORT=process.env.PORT||3000; const root=__dirname;
 
 const db=new Database(path.join(root,'study-lab.db'));
 
